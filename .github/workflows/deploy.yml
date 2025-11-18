@@ -44,7 +44,7 @@ jobs:
       id: taskdef
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
-        task-definition: infra/taskdef.json
+        task-definition: aws-tf/taskdef.json
         container-name: "nodejs-app"
         image: ${{ env.IMAGE_URI }}
 
