@@ -4,7 +4,7 @@
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::123456789012:role/nodejs-app-exec-role",
+  "executionRoleArn": "arn:aws:iam::918075021562:role/nodejs-app-exec-role",
   "containerDefinitions": [
     {
       "name": "nodejs-app",
